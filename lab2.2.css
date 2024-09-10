@@ -1,0 +1,74 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(./pexels-matreding-28271529.jpg);
+  backdrop-filter: blur(10px);
+  font-family: Montserrat;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  flex-direction: column;
+  padding: 40px;
+  background-color: white;
+  border-radius: 30px;
+  max-width: 450px;
+}
+
+.hobbie-list {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.hobbie {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  color: white;
+  width: 170px;
+  height: 170px;
+  background-size: cover; /* Масштабирует изображение, чтобы покрыть все окно */
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+}
+.description {
+  padding-top: 4px;
+  text-align: center;
+}
+.Cycling {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(./pexels-pixabay-161172.jpg);
+}
+
+.Photographing {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(./pexels-vasilis-karkalas-155349971-27785412.jpg);
+}
+
+.modeling {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(./IMG_20230827_203953_211.png);
+}
+.Coding {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(./pexels-goumbik-574071.jpg);
+}
